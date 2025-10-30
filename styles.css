@@ -1,0 +1,190 @@
+/* Estilos globales para todos los elementos */
+* {
+    background-color: transparent; /* Fondo transparente por defecto */
+    color: #fff; /* Texto blanco */
+    font-family: "Montserrat", serif; /* Fuente principal */
+    font-optical-sizing: auto; /* Ajuste óptico de fuentes */
+    font-style: normal; /* Estilo de fuente normal */
+}
+
+/* Estilo del cuerpo de la página */
+body {
+    background-color: #121212; /* Fondo oscuro típico de Spotify */
+}
+
+/* Contenedor principal */
+.container-master {
+    display: flex; /* Usa flexbox para organizar elementos */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    justify-content: space-between; /* Espaciado entre los elementos */
+    align-items: flex-start; /* Alinea elementos al inicio horizontalmente */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    padding: 2.5dvh; /* Espaciado interno proporcional */
+    margin: 0dvh 18dvh; /* Márgenes laterales */
+    background-image: url('24.png'); /* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: white; /* Texto blanco */
+}
+
+/* Estilo del encabezado */
+header {
+    margin: 0dvh 16dvh; /* Márgenes laterales del encabezado */
+}
+
+/* Estilo para la imagen del logo */
+#spoty-img {
+    height: auto; /* Altura automática */
+    width: 40px; /* Ancho fijo para el logo */
+}
+
+/* Estilo del contenedor del título principal */
+#wraped {
+    justify-content: left; /* Alineación a la izquierda */
+    width: 9rem; /* Ancho fijo */
+    letter-spacing: -5px; /* Ajusta el espaciado entre letras */
+    margin-bottom: 1.2dvh; /* Espaciado inferior */
+}
+
+/* Estilo del título principal */
+#wraped h1 {
+    font-size: 9rem; /* Tamaño de fuente grande */
+    font-weight: bold; /* Negrita */
+    color: white; /* Color blanco */
+    text-align: left; /* Alineado a la izquierda */
+    margin-bottom: 0.50px; /* Margen inferior pequeño */
+}
+
+/* Estilo de la sección de explicación */
+#Wrap {
+    font-size: 24px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    color: white; /* Color blanco */
+    text-align: left; /* Alineado a la izquierda */
+    padding-bottom: 10px; /* Espaciado inferior */
+    border-bottom: 1px solid white; /* Línea inferior blanca */
+    width: fit-content; /* Ajusta el ancho al contenido */
+}
+
+/* Estilo del contenido principal */
+#content {
+    margin-left: 67dvh; /* Margen izquierdo amplio */
+    color: white; /* Texto blanco */
+    font-weight: 500; /* Peso medio de la fuente */
+    line-height: 3dvh; /* Altura de línea */
+    padding-right: 3dvh; /* Espaciado derecho */
+    margin-bottom: 6dvh; /* Espaciado inferior */
+}
+
+/* Estilo del botón */
+#button-lisen {
+    margin-top: 2dvh; /* Espaciado superior */
+    display: inline-block; /* Comportamiento de botón */
+    background-color: #1ed760; /* Verde característico de Spotify */
+    color: black; /* Texto negro */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 30px; /* Bordes redondeados */
+    font-size: 1rem; /* Tamaño de fuente */
+    text-align: center; /* Texto centrado */
+    cursor: pointer; /* Cursor en forma de mano */
+    transition: background-color 0.3s ease, font-size 0.3s ease; /* Efectos suaves */
+    font-family: "Figtree", sans-serif; /* Fuente específica */
+    font-optical-sizing: auto; /* Ajuste óptico de fuente */
+    font-weight: 700; /* Negrita */
+    font-style: normal; /* Estilo normal */
+}
+
+/* Efecto hover para el botón */
+#button-lisen:hover {
+    background-color: #3be477; /* Cambia a un verde más claro */
+    font-size: 1.2rem; /* Aumenta el tamaño del texto */
+}
+
+/* Estilo para la sección explicativa */
+#Wrap {
+    margin-left: 7dvh; /* Margen izquierdo */
+    font-size: 2rem; /* Tamaño de fuente grande */
+    font-weight: 700; /* Negrita */
+    letter-spacing: -1px; /* Ajusta el espaciado entre letras */
+    padding-bottom: 2dvh; /* Espaciado inferior */
+    padding-right: 75dvh; /* Espaciado derecho amplio */
+}
+
+/* Contenedor de filas */
+.content-rows {
+    display: flex; /* Usa flexbox para disposición */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    padding: 5dvh; /* Espaciado interno */
+    padding-left: 10dvh; /* Espaciado izquierdo */
+}
+
+/* Estilo de cada fila */
+.rows {
+    display: flex; /* Disposición en fila */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    padding: 13px 8dvh; /* Espaciado interno */
+    width: 120dvh; /* Ancho fijo */
+}
+
+/* Estilo de cada bloque en la fila */
+.block-rows {
+    font-size: 4dvh; /* Tamaño de texto */
+    display: flex; /* Flexbox para disposición */
+    flex-direction: column; /* Apila verticalmente */
+    justify-content: left; /* Alinea al inicio horizontalmente */
+    padding: 5dvh; /* Espaciado interno */
+    padding-bottom: 0dvh; /* Sin espaciado inferior */
+    margin-bottom: 0dvh; /* Sin margen inferior */
+    width: 100%; /* Ancho completo */
+}
+
+/* Estilo de los títulos dentro de los bloques */
+.block-rows h2 {
+    margin-bottom: 0px; /* Sin margen inferior */
+    letter-spacing: -2px; /* Espaciado entre letras */
+    font-weight: 800; /* Negrita */
+}
+
+/* Estilo de los párrafos dentro de los bloques */
+.block-rows p {
+    font-size: 2dvh; /* Tamaño de texto */
+    letter-spacing: -1px; /* Espaciado entre letras */
+    color: white; /* Texto blanco */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+/* Estilo del pie de página */
+footer {
+    display: flex; /* Usa flexbox */
+    flex-direction: column; /* Apila elementos verticalmente */
+    justify-content: center; /* Centrado vertical */
+    align-items: center; /* Centrado horizontal */
+    text-align: center; /* Texto centrado */
+}
+
+/* Estilo de la lista del pie de página */
+.list-footer {
+    margin-top: 10px; /* Espaciado superior */
+    list-style-type: none; /* Sin estilo de lista */
+    padding-left: 20dvh; /* Espaciado izquierdo */
+    display: flex; /* Disposición en fila */
+    justify-content: center; /* Centrado horizontal */
+    margin: 5dvh; /* Márgenes */
+    font-family: "Figtree", sans-serif; /* Fuente específica */
+    font-optical-sizing: auto; /* Ajuste óptico de fuente */
+    font-weight: 400; /* Peso normal */
+    font-style: normal; /* Estilo normal */
+}
+
+/* Estilo de los ítems en la lista */
+.item-list {
+    transition: color 0.3s ease; /* Transición suave para el color */
+    margin-right: 2dvh; /* Espaciado derecho */
+    transition: 0.3s ease; /* Efecto de transición general */
+    font-size: 1.8dvh; /* Tamaño de texto */
+    letter-spacing: -1px; /* Espaciado entre letras */
+    color: white; /* Texto blanco */
+}
